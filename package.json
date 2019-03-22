@@ -5,6 +5,11 @@
   "main": "index.js",
   "author": "rebecca-zhang <rebeccazhangnz@outlook.com>",
   "license": "MIT",
+  "scripts": {
+    "webpack" : "webpack --mode development",
+    "watch" : "webpack --mode development --watch",
+    "webpack-server": "webpack-dev-server --content-base ./src --mode development --watch"
+  },
   "dependencies": {
     "concurrently": "^4.1.0",
     "react": "^16.8.4",
