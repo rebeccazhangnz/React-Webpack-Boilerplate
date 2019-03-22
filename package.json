@@ -6,9 +6,9 @@
   "author": "rebecca-zhang <rebeccazhangnz@outlook.com>",
   "license": "MIT",
   "scripts": {
-    "webpack" : "webpack --mode development",
-    "watch" : "webpack --mode development --watch",
-    "webpack-server": "webpack-dev-server --content-base ./src --mode development --watch"
+    "webpack": "webpack --mode development",
+    "watch": "webpack --mode development --watch",
+    "webpack-server": "webpack-dev-server --hot --inline"
   },
   "dependencies": {
     "concurrently": "^4.1.0",
